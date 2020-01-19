@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'VioletEvergardenFont';
     src: local('MaterialIcons-Regular'),
+	url(../font/VioletEvergardenFont.ttf) format('truetype'),
     url(../font/VioletEvergardenFont.woff) format('woff'),
-    url(../font/VioletEvergardenFont.otf) format('opentype'),
-    url(../font/VioletEvergardenFont.ttf) format('truetype');
+    url(../font/VioletEvergardenFont.otf) format('opentype');
 }
 body{
-    background-image: url("https://cdn.jsdelivr.net/gh/xgxdmx/EvergardenConverter@latest/EvergardenConverterPage/background.jpg");
+    background-image: url("../EvergardenConverterPage/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
