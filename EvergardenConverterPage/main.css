@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'VioletEvergardenFont';
+    src: local('MaterialIcons-Regular'),
+    url(../font/VioletEvergardenFont.woff) format('woff'),
+    url(../font/VioletEvergardenFont.otf) format('opentype'),
+    url(../font/VioletEvergardenFont.ttf) format('truetype');
+}
+body{
+    background-image: url("https://cdn.jsdelivr.net/gh/xgxdmx/EvergardenConverter@latest/EvergardenConverterPage/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.page{
+    margin: 20px;
+    width: 100%;
+    text-align: center;
+    color: goldenrod;
+    font-size: 12pt;
+    overflow-x: auto;
+}
+.head{
+    margin: 5px;
+    text-align: center;
+}
+.title{
+    font-weight:bold;
+    margin:15px;
+    color:black;
+}
+span{
+    margin:15px 5px 15px 5px;
+}
+.font_color,.custom-control-label,a{
+    color: goldenrod;
+}
+.select_font_size{
+    border: none;
+    border-bottom: 1px solid goldenrod;
+    color: goldenrod;
+    font-size: 12pt;
+    cursor: pointer;
+    background-color: rgba(255,255,255,0)
+}
+
+
+
+#main {
+    width: 1280px;
+    height: auto;
+    background: rgba(255,255,255,0);
+    position: absolute;
+    left: calc((100% - 1280px) / 2);
+}
+#main textarea {
+    position: relative;
+    color: #000000;
+    border: none;
+    left: 200px;
+    top: 90px;
+    width: 750px;
+    height: 400px;
+    box-shadow: 0px 0px 10px lightgray;
+}
+#textarea_b {
+    font-family: "VioletEvergardenFont";
+    text-shadow:#FFF 1px 0 0,#FFF 0 1px 0,#FFF -1px 0 0,#FFF 0 -1px 0;
+    background-color: transparent;
+    font-size: 18pt;
+    display: inline;
+}
+#textarea_a {
+    background-color: #FFF;
+    font-size: 14pt;
+    display: none;
+}
+.mainb {
+    height: 720px;
+}
+.footer{
+    margin: 32% 0 0 0;
+    padding: 2rem 2rem;
+    background-color: rgba(255,255,255,0);
+}
+.footer, .footer-text{
+    color:white;
+}

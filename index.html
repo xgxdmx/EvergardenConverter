@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>紫罗兰永恒花园</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="./EvergardenConverterPage/main.css">
+<script rel="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/js/bootstrap.min.js"></script>
+<body>
+<div class="container">
+    <div class="page">
+        <div class="row head">
+            <span class="title col-xl-4">EvergardenConverter</span>
+            <span class="model font_color col-xl-1">Model</span>
+            <span class="Font_size font_color col-xl-1">Font&nbsp;size:&nbsp;</span>
+            <select class="select_font_size col-xl-1" name="select_font_size" onchange="fontsizech(this);">
+                <option value="8pt">8pt</option>
+                <option value="10pt">10pt</option>
+                <option value="12pt">12pt</option>
+                <option value="14pt">14pt</option>
+                <option value="18pt" selected>18pt</option>
+                <option value="20pt">20pt</option>
+                <option value="22pt">22pt</option>
+                <option value="14pt">24pt</option>
+                <option value="16pt">26pt</option>
+                <option value="28pt">28pt</option>
+                <option value="30pt">30pt</option>
+                <option value="32pt">32pt</option>
+            </select>
+            <div class="custom-control custom-checkbox mb-3 col-xl-1" style="display: inline; margin: 15px;">
+                <input type="checkbox" class="custom-control-input" id="Editmode" name="Editmode" onchange="EditmodeChange();">
+                <label class="custom-control-label" for="Editmode" onchange="EditmodeChange();">Edit</label>
+            </div>
+            <span class="col-xl-1"><a href="https://github.com/kagurazakayashi/EvergardenConverter">Github</a></span>
+        </div>
+        <div id="main">
+            <textarea name="textarea_b" rows="10" maxlength="2000" id="textarea_b" oninput="method_a();" onclick="onClick();"></textarea>
+            <textarea name="textarea_a" rows="10" maxlength="2000" id="textarea_a" oninput="method_b();" onblur="onBlur();">P22.</textarea>
+        </div>
+    </div>
+
+</div>
+<div class="jumbotron text-center footer">
+            <span class="footer-text">
+                网页背景图和原始文字设计来自『
+                <a class="footer-text" href="http://violet-evergarden.jp/" target="_blank">ヴァイオレット・エヴァーガーデン</a>
+                』
+                <br/>本项目字体文件参与制作者：
+                <a class="footer-text" href="https://github.com/kagurazakayashi" target="_blank">神楽坂雅詩</a>
+                、
+                <a class="footer-text" href="https://github.com/wang124yi" target="_blank">0wew0</a>
+            </span>
+</div>
+</body>
+<script type="text/javascript" src="./EvergardenConverterPage/EvergardenConverter.js"></script>
+</html>
