@@ -6,7 +6,7 @@
     url(../font/VioletEvergardenFont.otf) format('opentype');
 }
 body{
-    background-image: url("../EvergardenConverterPage/background.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/xgxdmx/EvergardenConverter@latest/EvergardenConverterPage/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -55,9 +55,9 @@ span{
     color: #000000;
     border: none;
     left: 15%;
-    top: 15%;
+    top: 7%;
     width: 50%;
-    height: 80%;
+    height: 55%;
     box-shadow: 0px 0px 10px lightgrey;
     position: relative;
 }
@@ -114,9 +114,9 @@ span{
     color: #000000;
     border: none;
     left: 60%;
-    top: 5%;
+    top: 3%;
     width: 75%;
-    height: 55%;
+    height: 15%;
     box-shadow: 0px 0px 10px lightgrey;
     position: relative;	
 }
