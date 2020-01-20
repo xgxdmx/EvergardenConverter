@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcbf3036-17bd-4a6d-a16e-4cd2434e91e4" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EvergardenConverterPage/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/EvergardenConverterPage/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579417616427</updated>
       <workItem from="1579417625276" duration="17369000" />
-      <workItem from="1579513894877" duration="1362000" />
+      <workItem from="1579513894877" duration="2142000" />
     </task>
     <servers />
   </component>

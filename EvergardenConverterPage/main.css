@@ -9,6 +9,7 @@ body{
     background-image: url("https://cdn.jsdelivr.net/gh/xgxdmx/EvergardenConverter@latest/EvergardenConverterPage/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    z-index:9999;
 }
 .page{
     margin: 20px;
