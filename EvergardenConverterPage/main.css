@@ -5,16 +5,19 @@
     url(../font/VioletEvergardenFont.woff) format('woff'),
     url(../font/VioletEvergardenFont.otf) format('opentype');
 }
+html,body{
+	margin:0;
+	padding:0;
+}
 .body{
     background-image: url("../EvergardenConverterPage/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    z-index:9999;
 	width:100%;
-	height:100%;
+    height:100%;
 	margin:0;
 	padding:0;
-	position:absolute;
+	position:relative;
 }
 .page{
     margin: 20px;
