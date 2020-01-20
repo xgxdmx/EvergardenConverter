@@ -126,9 +126,9 @@ span{
         color: #000000;
         border: none;
         left: 40%;
-        top: 3%;
-        width: 75%;
-        height: 35%;
+        top: 60px;
+        width: 400px;
+        height: 20%;
         box-shadow: 0px 0px 10px lightgrey;
         position: relative;
     }
@@ -139,5 +139,17 @@ span{
     }
     .footer, .footer-text{
         color:black;
+    }
+}
+@media(max-width:700px) {
+    #main textarea {
+        color: #000000;
+        border: none;
+        left: 390px;
+        top: 60px;
+        width: 400px;
+        height: 20%;
+        box-shadow: 0px 0px 10px lightgrey;
+        position: relative;
     }
 }
